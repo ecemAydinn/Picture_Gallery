@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resim Galerisi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: aliceblue;
+
+        }
+        h1{
+            font-size: 4.5em;
+            color: darkgoldenrod;
+        }
+        img{
+            display:block;
+            margin-left: auto;
+            margin-right:auto;
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    <h1 class="text-center mb-2">WILD ANIMALS</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 col-s-12 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#aslanModal">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/aslan.jpg" alt="aslan"/>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="aslanModal" tabindex="-1" aria-labelledby="aslanModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="aslanModalLabel">Aslan</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img class="text-center" src="hayvanlar/aslan.jpg" alt="aslan" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-2 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#zebraBackdrop">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/zebra.jpg" alt="zebra" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="zebraBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="zebraBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="zebraBackdropLabel">Zebra</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/zebra.jpg" alt="zebra" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-2 col-s-12 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#gergedanModal">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/gergedan.jpg" alt="gergedan" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="gergedanModal" tabindex="-1" aria-labelledby="gergedanModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="gergedanModalLabel">Gergedan</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/gergedan.jpg" alt="gergedan" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-2 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#kaplanBackdrop">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/kaplan.jpg" alt="kaplan" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="kaplanBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="kaplanBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="kaplanBackdropLabel">Kaplan</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/kaplan.jpg" alt="kaplan.jpg" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 col-s-12 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#filModal">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/fil.jpeg" alt="fil" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="filModal" tabindex="-1" aria-labelledby="filModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="filModalLabel">Fil</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/fil.jpeg" alt="fil" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-2 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#sempanzeBackdrop">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/sempanze.jpg" alt="sempanze" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="sempanzeBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sempanzeBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sampanzeBackdropLabel">Þempanze</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/sempanze.jpg" alt="sampanze.jpg" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-2 col-s-12 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#sirtlanModal">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/sirtlan.jpg" alt="sirtlan" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="sirtlanModal" tabindex="-1" aria-labelledby="sirtlanModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sirtlanModalLabel">Sýrtlan</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/sirtlan.jpg" alt="sirtlan" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-2 col-md-6 col-xl-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#antilopBackdrop">
+                    <img class="img-thumbnail img-fluid" src="hayvanlar/antilop.jpg" alt="antilop" />
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="antilopBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sempanzeBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="sempanzeBackdropLabel">Antilop</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="hayvanlar/antilop.jpg" alt="antilop" style="width:80%" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
